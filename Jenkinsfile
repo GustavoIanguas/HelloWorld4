@@ -9,7 +9,7 @@ pipeline {
 
     environment {
         branch = 'master'
-        url = 'https://github.com/GustavoIanguas/HelloAndorid3'
+        url = 'https://github.com/GustavoIanguas/HelloWorld4'
     }
 
     stages {
