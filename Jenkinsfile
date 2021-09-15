@@ -54,13 +54,13 @@ pipeline {
         }
                 stage('Firebase Distribution') {
                     steps {
-                        sh "./gradlew appDistributionUploadRelease"
+                        sh "./gradlew appDistributionUploadRelease --track $Track"
                     }
                 }
 
                 stage('Google Play...') {
                     steps {
-                        sh "./gradlew publishBundle"
+                        sh "./gradlew publishBundle --track $Track"
                     }
                 }
             }
