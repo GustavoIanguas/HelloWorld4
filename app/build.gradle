@@ -16,8 +16,8 @@ android {
         applicationId "br.com.helloworld4"
         minSdk 23
         targetSdk 31
-        versionCode 103
-        versionName "1.03"
+        versionCode 110
+        versionName "1.10"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
